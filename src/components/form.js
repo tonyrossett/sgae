@@ -66,7 +66,7 @@ export default function Form() {
           value={formData.nome}
           onChange={handleChange}
           placeholder="Digite o nome do(a) assistido(a)"
-          className="border border-gray-300 rounded-md px-4 py-2 w-72"
+          className="placeholder-black text-black border border-gray-300 rounded-md px-4 py-2 w-72"
         />
         <input
           type="number"
@@ -74,7 +74,7 @@ export default function Form() {
           value={formData.quant}
           onChange={handleChange}
           placeholder="Quantidade de assistências"
-          className="border border-gray-300 rounded-md px-4 py-2 w-72"
+          className="placeholder-black text-black border border-gray-300 rounded-md px-4 py-2 w-72"
         />
         <input
           type="number"
@@ -82,20 +82,20 @@ export default function Form() {
           value={formData.interval}
           onChange={handleChange}
           placeholder="Intervalo (dias)"
-          className="border border-gray-300 rounded-md px-4 py-2 w-72"
+          className="placeholder-black text-black border border-gray-300 rounded-md px-4 py-2 w-72"
         />
         <input
           type="date"
           name="date"
           value={formData.date}
           onChange={handleChange}
-          className="border border-gray-300 rounded-md px-4 py-2 w-72"
+          className="placeholder-black text-black border border-gray-300 rounded-md px-4 py-2 w-72"
         />
         <select
           name="dia"
           value={formData.dia}
           onChange={handleChange}
-          className="border border-gray-300 rounded-md px-4 py-2 w-72"
+          className="placeholder-black text-black border border-gray-300 rounded-md px-4 py-2 w-72"
         >
           <option value="">Selecione um dia</option>
           <option value="domingo">Domingo</option>
@@ -122,7 +122,7 @@ export default function Form() {
           value={busca}
           onChange={(e) => setBusca(e.target.value)}
           placeholder="Digite o nome para buscar"
-          className="border border-gray-300 rounded-md px-4 py-2 w-72"
+          className="placeholder-black text-black border border-gray-300 rounded-md px-4 py-2 w-72"
         />
         <button
           onClick={handleBusca}
